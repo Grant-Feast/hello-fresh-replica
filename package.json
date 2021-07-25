@@ -1,0 +1,14 @@
+{
+  "name": "hello-fresh-replica",
+  "version": "1.0.0",
+  "description": "A personal project site I built to the design of the Hello Fresh site July 2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
+}
