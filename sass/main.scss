@@ -50,11 +50,11 @@
   padding-bottom: 1em;
 }
 
-.view-boxes-btn {
+.primary-btn {
   background: #067A46;
   color: #fff;
   text-decoration: none;
-  padding: 16px 22px;
+  padding: 14px 22px;
   border-radius: 5px;
 }
 
@@ -126,6 +126,7 @@ p {
 .getting-started {
   background: #fbfbfd;
   text-align: center;
+  padding-bottom: 3em;
 }
 
 .getting-started-header {
@@ -146,13 +147,59 @@ p {
   padding-bottom: 1em;
 }
 
-.get-started-img {
-  height: 100px;
-}
-
 .pros-container .pros {
   padding-left: 1em;
   padding-right: 1em;
+  margin-left: .6em;
+  margin-right: .6em;
+}
+
+.pros-container .col-container .pros:nth-of-type(3) {
+  padding-bottom: 2em;
+}
+
+// Carousel
+.carousel-container {
+  background: url('/images/Mobile_Background_Tablecloth-v3.png');
+  text-align: center;
+  padding-top: 2em;
+  height: 600px;
+}
+
+.carousel-inner-container {
+  color: #fff;
+  text-align: left;
+}
+
+.grey-p {
+  color: #676767;
+}
+
+#weeknights {
+  background: linear-gradient(rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0) 50%), url('/images/yourbox_img1-v2.jpeg');
+}
+
+#guests {
+  background: linear-gradient(rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0) 50%), url('/images/yourbox_img2-v2.jpeg');
+}
+
+#extras {
+  background: linear-gradient(rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0) 50%), url('/images/yourbox_img3-v2.jpeg');
+}
+
+#occasions {
+  background: linear-gradient(rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0) 50%), url('/images/yourbox_img4-v2.png');
+}
+
+#weeknights, #guests, #extras, #occasions {
+  height: 380px;
+  background-size: cover;
+  margin: 0 5px;
+  padding: 24px 18px 0;
+}
+
+.slide-heading {
+  font-weight: 400;
 }
 
 // Import Bootstrap files

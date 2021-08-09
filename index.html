@@ -7,6 +7,8 @@
   <title>Hello Fresh Replica</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/main.min.css">
+  <link rel="stylesheet" type="text/css" href="/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="/slick-theme.css"/>
 </head>
 <body>
   <nav class="navbar fixed-top navbar-expand-lg navbar-light">
@@ -42,7 +44,7 @@
         <span id="word-change" class="display-1">stress</span>
       </div>
       <p class="intro-paragraph">Now with more choices every week and meals starting from just £3.25/pp</p>
-      <a href="#" class="view-boxes-btn">View our boxes</a>
+      <a href="#" class="primary-btn">View our boxes</a>
       <div class="scroll-down-btn">
         <a href="#how-it-works">
           <svg class="chevron" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#067A46" class="bi bi-chevron-down" viewBox="0 0 16 16">
@@ -90,21 +92,57 @@
       <div class="col">
         <img src="/images/desktop_goodforyou.png" alt="food prep" class="get-started-img img-fluid">
       </div>
-      <div class="col-sm-12 pros">
-        <h3 class="sub-heading">Time saver</h3>
-        <p>We deliver everything you need to create delicious dinners from scratch so you spend less time shopping!</p>
-      </div>
-      <div class="col-sm-12 pros">
-        <h3 class="sub-heading">Value for money</h3>
-        <p>We work closely with our trusted suppliers to source fresh, high-quality ingredients for your recipe box.</p>
-      </div>
-      <div class="col-sm-12 pros">
-        <h3 class="sub-heading">Cutting food waste</h3>
-        <p>By giving the exact amount of ingredients you need, we cut food waste.</p>
+      <div class="col-sm-12 col-container">
+        <div class="col-sm-12 pros">
+          <h3 class="sub-heading">Time saver</h3>
+          <p>We deliver everything you need to create delicious dinners from scratch so you spend less time shopping!</p>
+        </div>
+        <div class="col-sm-12 pros">
+          <h3 class="sub-heading">Value for money</h3>
+          <p>We work closely with our trusted suppliers to source fresh, high-quality ingredients for your recipe box.</p>
+        </div>
+        <div class="col-sm-12 pros">
+          <h3 class="sub-heading">Cutting food waste</h3>
+          <p>By giving the exact amount of ingredients you need, we cut food waste.</p>
+        </div>
       </div>
     </div>
-    <a href="#" class="get-started-btn">Get started</a>
+    <a href="#" class="primary-btn">Get started</a>
+  </div>
+  <div class="carousel-container">
+    <h3 class="display-6">Your box, your way</h3>
+    <p class="grey-p">Flexible options to delight you and customise your weekly box</p>
+    <div class="carousel-inner-container">
+      <div id="weeknights" style="width: 250px">
+        <h3 class="slide-heading">For busy weeknights</h3>
+        <p>Ready in 20 minutes</p>
+      </div>
+      <div id="guests">
+        <h3 class="slide-heading">Impress your guests</h3>
+        <p>Flexible box size</p>
+      </div>
+      <div id="extras">
+        <h3 class="slide-heading">Add delicious Extras</h3>
+        <p>Include desserts and sides</p>
+      </div>
+      <div id="occasions">
+        <h3 class="slide-heading">For special occasions</h3>
+        <p>Treat yourself with premium meals</p>
+      </div>
+    </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel-inner-container').slick({
+        infinite: false,
+        slidesToShow: 1.5,
+        slidesToScroll: 1
+      });
+    });
+  </script>
 </body>
 </html>
