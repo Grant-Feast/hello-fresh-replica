@@ -104,7 +104,7 @@ p {
   font-size: 15px;
 }
 
-.learn-more-btn {
+.learn-more-btn, .app-btn {
   text-decoration: none;
   border: 1px solid #067A46;
   border-radius: 5px;
@@ -164,6 +164,7 @@ p {
   text-align: center;
   padding-top: 2em;
   height: 600px;
+  overflow: hidden;
 }
 
 .carousel-inner-container {
@@ -200,6 +201,80 @@ p {
 
 .slide-heading {
   font-weight: 400;
+}
+
+.menus-btn {
+  margin-top: 2.5em;
+}
+
+// ratings section
+.ratings-container {
+  text-align: center;
+  margin-top: 3em;
+  padding: 0 .5em 6em;
+}
+
+.ratings-container h3 {
+  font-weight: 300;
+}
+
+.ratings-container p:nth-of-type(1) {
+  font-size: 12px;
+}
+
+.customer-name {
+  font-weight: 600;
+}
+
+.review {
+  margin-top: 2em;
+}
+
+.review p:nth-of-type(1) {
+  margin-top: 1em;
+  font-size: 15px;
+}
+
+.stars-container {
+  padding-top: 1em;
+}
+
+.yellow-star {
+  fill: #ffe900;
+  margin-left: 2px;
+}
+
+// Get started section
+.get-started-container {
+  text-align: center;
+  padding: 1.5em;
+  background: url('/images/bottom_banner_mobile.jpeg');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.get-started-container h3 {
+  margin-top: 1em;
+}
+
+.view-btn-container {
+  padding-top: 1em;
+}
+
+.view-btn-container {
+  line-height: 1.7;
+}
+
+// App section
+.app-container {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.app-btn {
+  padding: 15px 60px;
+  font-size: 15px;
 }
 
 // Import Bootstrap files
