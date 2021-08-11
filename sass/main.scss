@@ -1,3 +1,16 @@
+// variables
+
+$accordion-button-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" aria-labelledby="a11y-Hellofresh-plusicon-id a11y-Hellofresh-plusicon-id-desc" data-hj-ignore-attributes=""><title id="a11y-Hellofresh-plusicon-id" data-hj-ignore-attributes="">Hellofresh-plusicon</title><desc id="a11y-Hellofresh-plusicon-id-desc" data-hj-ignore-attributes="">plus icon</desc><g fill="none" fill-rule="evenodd" data-hj-ignore-attributes=""><path d="M13.235 13.235v6.918a1.235 1.235 0 0 1-2.47 0v-6.918H3.847a1.235 1.235 0 1 1 0-2.47h6.918V3.847a1.235 1.235 0 0 1 2.47 0v6.918h6.918a1.235 1.235 0 0 1 0 2.47h-6.918z" fill="#067A46" data-hj-ignore-attributes=""></path><path d="M0 0h24v24H0z" data-hj-ignore-attributes=""></path></g></svg>');
+$accordion-button-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" aria-labelledby="a11y-Hellofresh-minusicon-id a11y-Hellofresh-minusicon-id-desc" data-hj-ignore-attributes=""><title id="a11y-Hellofresh-minusicon-id" data-hj-ignore-attributes="">Hellofresh-minusicon</title><desc id="a11y-Hellofresh-minusicon-id-desc" data-hj-ignore-attributes="">minus icon</desc><g fill="none" fill-rule="evenodd" data-hj-ignore-attributes=""><rect x="0" y="0" width="24" height="24" data-hj-ignore-attributes=""></rect><polygon fill="#067A46" points="6 11 6 13 18 13 18 11" data-hj-ignore-attributes=""></polygon></g></svg>');
+$accordion-icon-transform: none;
+$accordion-button-active-bg: #fff;
+$accordion-button-color: #000;
+$accordion-button-active-color: #000;
+$accordion-button-focus-border-color: #fff;
+$accordion-button-focus-box-shadow: 0;
+
+$font-size-base: 12px;
+
 // Nav
 
 .navbar {
@@ -275,6 +288,12 @@ p {
 .app-btn {
   padding: 15px 60px;
   font-size: 15px;
+}
+
+// accordion
+.accordion-header {
+  font-size: 14px;
+  font-weight: 500;
 }
 
 // Import Bootstrap files
