@@ -12,6 +12,10 @@ $accordion-button-focus-box-shadow: none;
 
 $accordion-font-size: 13px;
 
+* {
+  box-sizing: border-box;
+}
+
 // Nav
 
 .navbar {
@@ -70,6 +74,7 @@ $accordion-font-size: 13px;
   text-decoration: none;
   padding: 14px 22px;
   border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(160, 160, 160, 0.76);
 }
 
 .scroll-down-btn {
@@ -184,10 +189,15 @@ p {
 .carousel-inner-container {
   color: #fff;
   text-align: left;
+  margin-left: 5px;
 }
 
 .grey-p {
   color: #676767;
+}
+
+.slick-slide {
+  width: 240px;
 }
 
 #weeknights {
@@ -215,6 +225,7 @@ p {
 
 .slide-heading {
   font-weight: 400;
+  font-size: 25px;
 }
 
 .menus-btn {

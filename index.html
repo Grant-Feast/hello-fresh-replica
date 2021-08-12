@@ -47,7 +47,9 @@
         <span id="word-change" class="display-1">stress</span>
       </div>
       <p class="intro-paragraph">Now with more choices every week and meals starting from just £3.25/pp</p>
-      <a href="#" class="primary-btn">View our boxes</a>
+      <div class="btn-container">
+        <a href="#" class="primary-btn">View our boxes</a>
+      </div>
       <div class="scroll-down-btn">
         <a href="#how-it-works">
           <svg class="chevron" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#067A46" class="bi bi-chevron-down" viewBox="0 0 16 16">
@@ -146,7 +148,7 @@
     <div class="review">
       <img src="images/speachmarks-icon.svg" alt="Speech marks">
       <p class="customer-name">Martine said</p>
-      <p>HelloFresh is great for busy lifestyle and saves you shopping for ingredients etc. Food is fab and it's a new way of cooking quick meals but sodifferent and tasty</p>
+      <p>HelloFresh is great for busy lifestyle and saves you shopping for ingredients etc. Food is fab and it's a new way of cooking quick meals but sodifferent and tasty &#128523;</p>
     </div>
     <div class="stars-container">
       <svg width="24" height="24" viewBox="0 0 24 24" color="black" class="yellow-star" data-hj-ignore-attributes="">
@@ -328,6 +330,7 @@
     $(document).ready(function(){
       $('.carousel-inner-container').slick({
         infinite: false,
+        variableWidth: true,
         slidesToShow: 1.5,
         slidesToScroll: 1
       });
