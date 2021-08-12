@@ -12,15 +12,48 @@
 </head>
 <body>
   <!-- Top nav -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+  <div class="navbar fixed-top navbar-expand-lg navbar-light mobile-nav">
+    <button class="toggler-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-logo-anchor" href="#">
+      <img src="images/Hello_Fresh_Logo.png" alt="HF Logo" class="navbar-logo">
+    </a>
+  </div>
+  <button class="toggler-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div id="login-container" class="offcanvas-header">
+      <a href="#" class="login-btn">Log in</a>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+        Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+      </div>
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light">
     <div class="container-fluid nav-child-container">
-      <button class="toggler-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="toggler-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-logo-anchor" href="#">
         <img src="images/Hello_Fresh_Logo.png" alt="HF Logo" class="navbar-logo">
       </a>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse offcanvase-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -37,7 +70,7 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
   <!-- Top banner -->
   <div class="container-fluid intro-section">
     <div class="intro-heading-container">
