@@ -44,6 +44,50 @@ $offcanvas-horizontal-width: 250px;
   transform: translateX(-100%);
 }
 
+#canvas-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.offcanvas-main-menu, .secondary-menu, .sustainability {
+  border-bottom: 1px solid #e4e4e4;
+  padding-left: 1em;
+}
+
+.last-menu-option {
+  padding-left: 1em;
+}
+
+.secondary-menu, .sustainability, .last-menu-option {
+  padding-top: 1em;
+  padding-left: 0;
+}
+
+.offcanvas-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.offcanvas-list-item {
+  margin-bottom: 1.5em;
+}
+
+.relative {
+  position: relative;
+}
+
+.offcanvas-list-item a {
+  text-decoration: none;
+  bottom: -2px;
+  margin-left: 1em;
+  color: #242424;
+  font-size: 15px;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .login-btn {
   text-decoration: none;
   text-align: center;
